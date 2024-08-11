@@ -6,7 +6,12 @@ import { typeORMConfig } from 'config/typeorm.config';
 import { MemoModule } from './memo/memo.module';
 
 @Module({
-  imports: [AuthModule, CommonModule, TypeOrmModule.forRoot(typeORMConfig), MemoModule],
+  imports: [
+    AuthModule,
+    CommonModule,
+    TypeOrmModule.forRoot(typeORMConfig),
+    MemoModule,
+  ],
   controllers: [],
   providers: [],
 })
