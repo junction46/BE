@@ -8,7 +8,7 @@ import { MemoRepository } from './repository/memo.repository';
 
 @Injectable()
 export class MemoService {
-    private readonly apiKey = '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';
+    private readonly apiKey = '';
     
     constructor(
         @InjectRepository(MemoRepository)
