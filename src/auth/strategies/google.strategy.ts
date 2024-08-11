@@ -8,8 +8,8 @@ export class GoogleStrategy extends PassportStrategy(Strategy) {
   constructor(private authService: AuthService) {
     super({
       clientID:
-        '614171343828-js8lbptfut8vqb1selphcs1o3mmss8dl.apps.googleusercontent.com',
-      clientSecret: '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',
+        '',
+      clientSecret: '',
       callbackURL: 'http://localhost:3000/auth/google/callback', //나중에 수정 필요
       scope: ['profile', 'email'],
     });
