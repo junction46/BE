@@ -9,7 +9,7 @@ import { RoadmapRepository } from './repository/common.repository';
 
 @Injectable()
 export class CommonService {
-  private readonly apiKey = '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'
+  private readonly apiKey = ''
   constructor(
     private readonly httpService: HttpService,
     @InjectRepository(RoadmapRepository)
