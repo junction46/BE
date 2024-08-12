@@ -8,7 +8,7 @@ export const typeORMConfig : TypeOrmModuleOptions = {
     host:'localhost',
     port:5432,
     username:'postgres',
-    password: 'neeneenon1550@',
+    password: 'password',
     database: 'silkroad',
     entities: [Roadmap, Memo],
     synchronize: true
